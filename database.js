@@ -1,4 +1,4 @@
-const { Sequelize, DataTypes } = require("sequelize");
+import { Sequelize, DataTypes } from "sequelize";
 
 // Configuration de la base de données SQLite
 const sequelize = new Sequelize({
@@ -27,4 +27,4 @@ sequelize.sync().then(() => {
   console.log("Database synchronized");
 });
 
-module.exports = { sequelize, Product };
+export { sequelize, Product };

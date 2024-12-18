@@ -12,5 +12,9 @@
   "devDependencies": {
     "@playwright/test": "^1.49.1",
     "@types/node": "^22.10.2"
-  }
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3"
+  },
+  "type" : "module"
 }
